@@ -23,9 +23,16 @@ run the project
 
 then add .htaccess file in root folder 
 upload all the files and then 
-go to config/routes.php
+go to public/index.php file
 $base_uri = '/mvc_startup';
 change this line into your website link 
 $base_uri = 'yourwebsitelink/';
+
+
+<-------- database ------->
+create a database named mvc
+then copy and paste the mvc.sql file data into sql query 
+then change the username and password in config/database.php file
+
 
 then run your website
