@@ -22,11 +22,6 @@ run the project
 <-------- running this online as a root directory ----------->
 
 then add .htaccess file in root folder 
-upload all the files and then 
-go to public/index.php file
-$base_uri = '/mvc_startup';
-change this line into your website link 
-$base_uri = 'yourwebsitelink/';
 
 
 <-------- database ------->
