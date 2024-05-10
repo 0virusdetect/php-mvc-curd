@@ -15,6 +15,11 @@ I made this project just for fun, it allows you to create nice and simple PHP MV
 * Then change the Username and Password in config/database.php file
   
 ## **For Linux users**
+
+**Run the below code**
+
+	sudo a2enmod rewrite
+ 
 **Go to Directory -** /etc/apache2/sites-available/000-default.conf
 
     <Directory /var/www/html>
