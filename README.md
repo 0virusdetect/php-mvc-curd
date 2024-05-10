@@ -20,7 +20,7 @@ I made this project just for fun, it allows you to create nice and simple PHP MV
 
 	sudo a2enmod rewrite
  
-**Go to Directory -** /etc/apache2/sites-available/000-default.conf
+**Go to Directory -** /etc/apache2/sites-available/000-default.conf and add these code inside <VirtualHost *:80>
 
     <Directory /var/www/html>
     Options Indexes FollowSymLinks MultiViews
