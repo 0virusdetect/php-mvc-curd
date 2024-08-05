@@ -72,7 +72,7 @@ I made this project just for fun, it allows you to create nice and simple PHP MV
 
 Once you have the code on your local machine, you can run it effortlessly. Use the following command:
 
-    php -S localhost:2343
+    php -S localhost:2343 -t public
 
 to run this you need to remove public in header.php and footer.php files
 
